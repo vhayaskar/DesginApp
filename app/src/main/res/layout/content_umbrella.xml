@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="adler.com.desginapp.UmbrellaActivity"
+    tools:showIn="@layout/activity_umbrella">
+
+
+    <ImageView
+        android:id="@+id/activity_umbrella_iv_umbrella"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/image1"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>
